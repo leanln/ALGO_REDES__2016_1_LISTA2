@@ -1,0 +1,5 @@
+nome = input ("colocar nome do cliente:")
+preco = float (input ("colocar preco:"))
+quantidade = float (input ("colocar a contidade:"))
+valor_total = (quantidade) * (preco)
+print("Senhor %s seus produtos totalizam R$ %.2f reais."%(nome,valor_total))
